@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main-header{
+    overflow: hidden;
+}
+.main-header nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.main-header nav ul{
+    list-style: none;
+    margin-right: 30px;
+}
+.main-header nav ul li{
+    float: left;
+    margin: 20px 10px 0px;
+}
+.main-header nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: 500;
+}
+.banner{
+    min-height: 540px;
+    width: 100%;
+    background-image: url(../images/banner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.banner .banner-content{
+    width: 70%;
+    height: auto;
+    margin: auto;
+    padding-top: 150px;
+}
+.banner .banner-content h2{
+    font-size: 50px;
+    color: white;
+    background-color: black;
+    text-align: center;
+
+}
+.banner .banner-content p{
+    font-size: 20px;
+    color: white;
+    border-bottom: 2px solid white;
+    padding: 35px 0px;
+}
+.banner .banner-content .learn-btn{
+    display: inline;
+    padding: 20px 25px;
+    background-color: aqua;
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+}
+.content-area{
+    width: 80%;
+    min-height: 600px;
+    float: left;
+    background-color: #B9EDDD;
+}
+.content-area .about{
+    width: 100%;
+    height: 300px;
+    background-color: rgb(172, 162, 162);
+    overflow: hidden;
+    padding: 10px;
+}
+.content-area .about .about-img{
+    width: 50%;
+    background-color: darksalmon;
+    padding: 20px;
+    float: left;
+}
+.content-area .about .about-content{
+    padding: 30px;
+
+} 
+.content-area .about .about-content h3{
+    text-align: center;
+    font-size: 30px;
+    color: darksalmon;
+    text-shadow: 2px 2px 4px black;
+    padding: 20px 0px;
+}
+.content-area .about .about-content p{
+    padding: 0px 30px;
+    text-align: justify;
+}
+.content-area .about .about-img{
+    padding: 30px;
+}
+.content-area .about .about-img img{
+    width: 100%;
+}
+.services{
+  background-color: darkolivegreen;
+  overflow: hidden;
+  width: 80%;
+  margin: 30px auto;
+}
+.services .service-item{
+    background-color: azure;
+    width: 15%;
+    height: 150px;
+    float: left;
+    margin: 20px 42px;
+    border-radius: 12px;
+}
+.blogs{
+    width: 100%;
+    height: 300px;
+    background-color: gold;
+    padding: 30px;
+}
+.blogs .blog{
+    width: 50%;
+    margin: 30px 30px;
+    display: block;
+    border: 1px solid #000;
+}
+.sidebar{
+    width: 20%;
+    height: 850px;
+    overflow: hidden;
+    background-color:saddlebrown;
+}
+.footer{
+    background-color: chartreuse;
+    width: 100%;
+    overflow: hidden;
+}
